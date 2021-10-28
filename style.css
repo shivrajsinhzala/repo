@@ -94,12 +94,6 @@ top: 10px;
 left: 10px;
 
 }
-.home{
-top: 0%;
-bottom: 100000%;
-
-}
-
 .home .loogoo{
 position: relative;
 width: 80%;
@@ -415,7 +409,7 @@ header .search-bar-container label:hover{
   padding-bottom: 7%;
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 90%; 
+  font-size: 90%;
 }
 
 .about h3{
