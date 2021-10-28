@@ -1,3 +1,6 @@
+html{
+  display: block;
+}
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
@@ -721,24 +724,24 @@ header .search-bar-container label:hover{
     border-top: .1rem solid rgba(255,255,255,.2);
     padding:1rem 2rem;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
-  /* } */
+  
 
   /* header .navbar.active{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   } */
-
-  /* header .navbar a{
+/* 
+  header .navbar a{
     display: block;
     border-radius: .5rem;
     padding:1.5rem;
     margin:1.5rem 0;    
     background:#222;
-  } */
+  }
 
 }
 
 @media (max-width:450px){
-
+/* 
   html{
     font-size: 50%;
     overflow-x: hidden;
@@ -751,5 +754,4 @@ header .search-bar-container label:hover{
   .contact .row form .inputBox input{
     width:100%;
   }
-
-}
+ */

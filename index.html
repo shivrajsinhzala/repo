@@ -7,9 +7,12 @@
     <title>complete responsive tour and travel agency website design tutorial</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
+    <link rel="stylesheet" href="flickity.css" media="screen">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
@@ -115,18 +118,18 @@
         <div class="about">
 
             <div class="box">
-             
+
                 <p>
                     We are known for best quality gola serve in rajkot like Cadbury,
                     Butterscotch,Choco Ball,Ferrero Rocher Gola,Brownie Gola and many more other Flavours.
                     <br>
                     <br>
-                    <p> 
+                <p>
                     We are giving best gola service since 1992.
                     We are Using RO water ice. Our Gola can be sent on Flight Through
                     Hand Luggage.</p>
-                    <br>
-                    <p> 
+                <br>
+                <p>
                     We have Franchises in Morbi, Ahmedabad, and Surat.
                     We have used natural and ISI Marked Colour.</p>
             </div>
@@ -291,8 +294,34 @@
             <span>e</span>
             <span>s</span>
         </h1>
+        <!-- added the slider -->
+        <style media="screen">
+            .corousel-cell{
+                width: 68%;
+                margin-right: 10px;
+            }
 
-        <div class="box-container">
+            .corousel-cell::before{
+                display: block;
+            }
+            
+        </style>
+        <div class="carousel" data-flickity='{ "wrapAround": "true", "autoPlay": true }'>
+            <div class="carousel">
+                <div class="carousel-cell">
+                    <img src="image/blog-1.jpg" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="image/blog-2.jpg" alt="">
+                </div>
+                <div class="carousel-cell">
+                    <img src="image/blog-3.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <!-- end -->
+        <!-- <div class="box-container">
 
             <div class="box">
                 <i class="fas fa-hotel"></i>
@@ -331,7 +360,7 @@
                     exercitationem ut minima itaque iusto ipsum corrupti!</p>
             </div>
 
-        </div>
+        </div> -->
 
     </section>
 
@@ -354,7 +383,15 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="images/g-1.jpg" alt="">
+                <img src="image/pic.jpg" alt="">
+                <div class="content">
+                    <h3>TIRNGA GOLA</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/pic2.jpg" alt="">
                 <div class="content">
                     <h3>amazing places</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
@@ -362,7 +399,7 @@
                 </div>
             </div>
             <div class="box">
-                <img src="images/g-2.jpg" alt="">
+                <img src="image/pic3.jpg" alt="">
                 <div class="content">
                     <h3>amazing places</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
@@ -370,7 +407,7 @@
                 </div>
             </div>
             <div class="box">
-                <img src="images/g-3.jpg" alt="">
+                <img src="image/pic4.jpg" alt="">
                 <div class="content">
                     <h3>amazing places</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
@@ -378,7 +415,7 @@
                 </div>
             </div>
             <div class="box">
-                <img src="images/g-4.jpg" alt="">
+                <img src="image/pic5.jpg" alt="">
                 <div class="content">
                     <h3>amazing places</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
@@ -386,15 +423,7 @@
                 </div>
             </div>
             <div class="box">
-                <img src="images/g-5.jpg" alt="">
-                <div class="content">
-                    <h3>amazing places</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
-                    <a href="#" class="btn">see more</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-6.jpg" alt="">
+                <img src="image/pic6.jpg" alt="">
                 <div class="content">
                     <h3>amazing places</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
@@ -594,7 +623,8 @@
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="flickity.pkgd.js"></script>
     <!-- custom js file link  -->
     <script src="script.js"></script>
 
