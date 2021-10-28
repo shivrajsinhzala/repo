@@ -405,11 +405,7 @@ header .search-bar-container label:hover{
   margin-right: 5%;
   font-size: 90%; 
 }
-.about .box i{
-  position: relative;
-  right: 100%;
-  
-}
+
 .about h3{
   color: rgba(255, 0, 50); 
   font-size: 150%;
