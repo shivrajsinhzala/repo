@@ -1,7 +1,8 @@
 html{
-  display: block;
+  display: block
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
 
 :root{
   --orange:#ff4f4ff3;
@@ -749,3 +750,4 @@ header .search-bar-container label:hover{
     width:100%;
   }
  */
+}
