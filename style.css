@@ -18,7 +18,6 @@
         url('video/BebasNeue-Regular.ttf') format('truetype');
 }
 
-
 *{
   font-family: 'Nunito', sans-serif;
   margin:0; padding:0;
@@ -610,6 +609,7 @@ header .search-bar-container label:hover{
 
 .brand-container{
   text-align: center;
+  overflow: hidden;
 }
 
 .footer{
@@ -685,6 +685,8 @@ header .search-bar-container label:hover{
 @media (max-width:1200px){
 
   html{
+    display: block;
+    overflow-x: hidden;
     font-size: 55%;
   }
   body{
@@ -697,7 +699,7 @@ header .search-bar-container label:hover{
       display: block;
   }
   header{
-    width: 100%;
+    width: 100vh;
     padding:2rem;
     display: block;
   }
@@ -713,7 +715,7 @@ header .search-bar-container label:hover{
       display: block;
   }
   header{
-    width: 250vh;
+    width: 100vh;
     padding:2rem;
     display: block;
   }
@@ -765,9 +767,5 @@ header .search-bar-container label:hover{
 
   .heading span{
     font-size: 3.2rem;
-  }
-
-  .contact .row form .inputBox input{
-    width:100%;
   }
 }
