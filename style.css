@@ -703,11 +703,28 @@ header .search-bar-container label:hover{
   }
 
 }
+@media (max-width:375px){
+  html{
+      display: block;
+  }
+  header{
+    width: 100%;
+    padding:2rem;
+    display: block;
+  }
+  
+  section{
+    padding:2rem;
+    display: block;
+  }
 
+}
 @media (max-width:768px){
-
+  html{
+    display: block;
+  }
   #menu-bar{
-    display:  initial;
+    display:  block;
   }
 
   /* header .navbar{
@@ -722,7 +739,7 @@ header .search-bar-container label:hover{
   /* header .navbar.active{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   } */
-/* 
+
   header .navbar a{
     display: block;
     border-radius: .5rem;
@@ -734,10 +751,11 @@ header .search-bar-container label:hover{
 }
 
 @media (max-width:450px){
-/* 
+
   html{
     font-size: 50%;
     overflow-x: hidden;
+    display: block;
   }
 
   .heading span{
@@ -747,5 +765,4 @@ header .search-bar-container label:hover{
   .contact .row form .inputBox input{
     width:100%;
   }
- */
 }
