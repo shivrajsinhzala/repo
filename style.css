@@ -18,7 +18,6 @@
         url('video/BebasNeue-Regular.ttf') format('truetype');
 }
 
-
 *{
   font-family: 'Nunito', sans-serif;
   margin:0; padding:0;
@@ -423,15 +422,17 @@ header .search-bar-container label:hover{
 }
 .nam p{
   color: rgba(255, 0, 50); 
-  font-size: 550%;
+  font-size: 7vh;
   margin-bottom: 0pt;
   text-align: center;
   font-family: 'Aditya';
 }
-.nam p span{
-  padding-left: 25%;
-  font-size: 70%;
-  font-family: "Hitesh";
+.nam1 p{
+  color: rgba(255, 0, 50); 
+  font-size: 4vh;
+  margin-bottom: 0pt;
+  text-align: center;
+  font-family: 'Aditya';
 }
 .packages .box-container .box .content .price{
   font-size: 2rem;
@@ -608,6 +609,7 @@ header .search-bar-container label:hover{
 
 .brand-container{
   text-align: center;
+  overflow: hidden;
 }
 
 .footer{
@@ -659,8 +661,8 @@ header .search-bar-container label:hover{
   border-top: .1rem solid rgba(255,255,255,.2);
 }
 
-.footer .credit span{
-  color:var(--orange);
+.footer .credit span a{
+  color:aqua;
 }
 
 
@@ -683,9 +685,13 @@ header .search-bar-container label:hover{
 @media (max-width:1200px){
 
   html{
+    display: block;
+    overflow-x: hidden;
     font-size: 55%;
   }
-
+  body{
+    display: block;
+  }
 }
 
 @media (max-width:991px){
@@ -693,13 +699,14 @@ header .search-bar-container label:hover{
       display: block;
   }
   header{
-    width: 100%;
+    width: 100vh;
     padding:2rem;
     display: block;
   }
   
   section{
     padding:2rem;
+    display: block;
   }
 
 }
@@ -708,7 +715,7 @@ header .search-bar-container label:hover{
       display: block;
   }
   header{
-    width: 100%;
+    width: 100vh;
     padding:2rem;
     display: block;
   }
@@ -760,9 +767,5 @@ header .search-bar-container label:hover{
 
   .heading span{
     font-size: 3.2rem;
-  }
-
-  .contact .row form .inputBox input{
-    width:100%;
   }
 }
