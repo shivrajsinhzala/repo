@@ -416,6 +416,10 @@ header .search-bar-container label:hover{
     margin-top: 2%;
 
 }
+.plane{
+  color: rgba(255, 0, 50); 
+  font-size: 500%;
+}
 .about h3{
   color: rgba(255, 0, 50); 
   font-size: 150%;
