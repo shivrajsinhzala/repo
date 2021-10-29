@@ -1,6 +1,4 @@
-html{
-  display: block
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 
@@ -19,7 +17,6 @@ html{
   src:  url('video/BebasNeue-Regular.ttf') format('woff2'),
         url('video/BebasNeue-Regular.ttf') format('truetype');
 }
-
 
 *{
   font-family: 'Nunito', sans-serif;
@@ -425,15 +422,17 @@ header .search-bar-container label:hover{
 }
 .nam p{
   color: rgba(255, 0, 50); 
-  font-size: 550%;
+  font-size: 7vh;
   margin-bottom: 0pt;
   text-align: center;
   font-family: 'Aditya';
 }
-.nam p span{
-  padding-left: 25%;
-  font-size: 70%;
-  font-family: "Hitesh";
+.nam1 p{
+  color: rgba(255, 0, 50); 
+  font-size: 4vh;
+  margin-bottom: 0pt;
+  text-align: center;
+  font-family: 'Aditya';
 }
 .packages .box-container .box .content .price{
   font-size: 2rem;
@@ -610,6 +609,7 @@ header .search-bar-container label:hover{
 
 .brand-container{
   text-align: center;
+  overflow: hidden;
 }
 
 .footer{
@@ -661,8 +661,8 @@ header .search-bar-container label:hover{
   border-top: .1rem solid rgba(255,255,255,.2);
 }
 
-.footer .credit span{
-  color:var(--orange);
+.footer .credit span a{
+  color:aqua;
 }
 
 
@@ -685,9 +685,13 @@ header .search-bar-container label:hover{
 @media (max-width:1200px){
 
   html{
+    display: block;
+    overflow-x: hidden;
     font-size: 55%;
   }
-
+  body{
+    display: block;
+  }
 }
 
 @media (max-width:991px){
@@ -695,21 +699,39 @@ header .search-bar-container label:hover{
       display: block;
   }
   header{
-    width: 100%;
+    width: 100vh;
     padding:2rem;
     display: block;
   }
   
   section{
     padding:2rem;
+    display: block;
   }
 
 }
+@media (max-width:375px){
+  html{
+      display: block;
+  }
+  header{
+    width: 100vh;
+    padding:2rem;
+    display: block;
+  }
+  
+  section{
+    padding:2rem;
+    display: block;
+  }
 
+}
 @media (max-width:768px){
-
+  html{
+    display: block;
+  }
   #menu-bar{
-    display:  initial;
+    display:  block;
   }
 
   /* header .navbar{
@@ -724,7 +746,7 @@ header .search-bar-container label:hover{
   /* header .navbar.active{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   } */
-/* 
+
   header .navbar a{
     display: block;
     border-radius: .5rem;
@@ -736,18 +758,14 @@ header .search-bar-container label:hover{
 }
 
 @media (max-width:450px){
-/* 
+
   html{
     font-size: 50%;
     overflow-x: hidden;
+    display: block;
   }
 
   .heading span{
     font-size: 3.2rem;
   }
-
-  .contact .row form .inputBox input{
-    width:100%;
-  }
- */
 }
