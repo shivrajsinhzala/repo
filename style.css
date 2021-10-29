@@ -4,7 +4,22 @@
 
 :root{
   --orange:#ff4f4ff3;
+  
+    --blue:#0abde3;
+    --grey:#8e8e8e;
+    --facebook: #4267B2;
+    --black:#130f40;
+    --light-color:#666;
+    --linkedin: #0072B1 ;
+    --twitter: #1DA1F2;
+    --instagram: #C13584;
+    --github: #333;
+    --whatsapp: #25d366;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
+
+
 
 @font-face {
   font-family: 'Aditya';
@@ -34,6 +49,7 @@
 }
 
 html{
+  color: #fff;
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-padding-top: 6rem;
@@ -51,7 +67,7 @@ section{
 
 .heading span{
   font-size: 3rem;
-  background:rgba(26, 21, 13, 0.219);
+  background:rgba(241, 240, 236, 0.925);
   color:var(--orange);
   border-radius: 10rem;
   padding:0.05rem 0.8rem;
@@ -77,10 +93,15 @@ section{
   color:var(--orange);
 }
 .plane{
+  align-items: center;
+  text-align: center;
   height: 100%;
   width: 100%;
 }
 .plane p{
+  text-align: center;
+  font-family:'Quicksand', sans-serif;
+  color: rgb(255, 255, 255);
   font-size: 2.5rem;
   height: 100%;
   width: 100%;
@@ -89,7 +110,7 @@ header{
   position: fixed;
   width: auto;
   top:0; left: 0; right:0;
-  background:#333;
+  background:rgb(116, 114, 114);
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -382,7 +403,7 @@ header .search-bar-container label:hover{
   flex:1 1 30rem;
   border-radius: .5rem;
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(255, 255, 255, 0.925);
 }
 
 .packages .box-container .box img{
@@ -397,7 +418,7 @@ header .search-bar-container label:hover{
 
 .packages .box-container .box .content h3{
   font-size:2rem;
-  color:#333;
+  color:rgb(255, 255, 255);
 }
 
 .packages .box-container .box .content h3 i{
@@ -406,7 +427,7 @@ header .search-bar-container label:hover{
 
 .packages .box-container .box .content p{
   font-size:1.7rem;
-  color:#666;
+  color:rgb(255, 255, 255);
   padding:1rem 0;
 }
 
