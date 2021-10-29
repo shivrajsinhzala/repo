@@ -412,7 +412,14 @@ header .search-bar-container label:hover{
   margin-right: 5%;
   font-size: 90%;
 }
+.Vidss{
+    margin-top: 2%;
 
+}
+.plane{
+  color: rgba(255, 0, 50); 
+  font-size: 500%;
+}
 .about h3{
   color: rgba(255, 0, 50); 
   font-size: 150%;
