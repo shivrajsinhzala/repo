@@ -55,6 +55,9 @@ html{
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
 }
+body{
+  background-color : #2f302d;
+}
 
 section{
   padding:2rem 9%;
@@ -69,8 +72,8 @@ section{
   font-size: 3rem;
   background:rgba(241, 240, 236, 0.925);
   color:var(--orange);
-  border-radius: 10rem;
-  padding:0.05rem 0.8rem;
+  border-radius: 5px;
+  padding:0.01rem 0.5rem;
 }
 
 .heading span.space{
@@ -413,12 +416,19 @@ header .search-bar-container label:hover{
 }
 
 .packages .box-container .box .content{
-  padding:2rem;
+  text-align: center;
+  padding:1rem;
 }
 
 .packages .box-container .box .content h3{
   font-size:2rem;
+  text-align: center;
   color:rgb(255, 255, 255);
+}
+.packages .box-container .box .btn{
+    position: relative;
+    width: 100%;
+    align-items: center;
 }
 
 .packages .box-container .box .content h3 i{
@@ -462,6 +472,15 @@ header .search-bar-container label:hover{
   margin-bottom: 0pt;
   text-align: center;
   font-family: 'Aditya';
+}
+.hito .btn{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5in;
+  text-align: center;
+  left: 40%;
+  right: 40%;
 }
 .nam1 p{
   color: rgba(255, 0, 50); 
@@ -650,6 +669,7 @@ header .search-bar-container label:hover{
 
 .footer{
   background:#333;
+  margin-top: 1in;
 }
 
 .footer .box-container{
