@@ -71,6 +71,7 @@ section{
 /* strat menu */
 /* The navigation bar */
 .navbar {
+  border-radius: 0px 0px 0px 18px;
   overflow: hidden;
   background-color: rgba(248, 242, 242, 0.959);
   position: fixed; /* Set the navbar to fixed position */
