@@ -68,7 +68,41 @@ section{
   padding:0.8rem 0;
 
 }
+/* strat menu */
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgba(248, 242, 242, 0.959);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+/* Links inside the navbar */
+.navbar a {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: left;
+  display: block;
+  width: 15%;
+  border-radius: 15px;
+  color: #080808;
+  text-align: center;
+  margin: 10px;
+  padding: 12px 18px;
+  text-decoration: none;
+}
 
+/* Change background on mouse-over */
+.navbar a:hover {
+  background:var(--orange);
+  color: rgb(255, 255, 255);
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+/* ends menu */
 .heading span{
   font-size: 3rem;
   background:rgba(241, 240, 236, 0.925);
@@ -535,9 +569,6 @@ header .search-bar-container label:hover{
 .services .box-container .box:hover{
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
-section .gallery{
-padding: auto;
-}
 
 .gallery .box-container{
   display: flex;
@@ -551,13 +582,14 @@ padding: auto;
   border:1rem solid #fff;
   border-radius: .5rem;
   flex:1 1 30rem;
+  height: 25rem;
   position: relative;
 }
 
 .gallery .box-container .box img{
   height: 100%;
   width:100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .gallery .box-container .box .content{
