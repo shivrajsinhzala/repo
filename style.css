@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root{
   --orange:#ff4f4ff3;
   
@@ -68,6 +68,7 @@ section{
   padding:0.8rem 0;
 
 }
+
 /* strat menu */
 /* The navigation bar */
 .navbar {
@@ -83,7 +84,7 @@ section{
 /* Links inside the navbar */
 
 .navbar a {
-  font-size: 175%;
+  font-size: 170%;
   font-family: 'Quicksand';
   display: block;
   float: right;
