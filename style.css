@@ -328,7 +328,6 @@ header .search-bar-container label:hover{
 }
 
 .home{
-  min-height: 350pt;
   display: flex;
   align-items: center;
   flex-flow: column;
