@@ -517,10 +517,10 @@ header .search-bar-container label:hover{
   font-family: 'Aditya';
 }
 .hito .btn{
-  position: absolute;
+  position: relative;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.5in;
+  margin-bottom: 0.7in;
   text-align: center;
   left: 40%;
   right: 40%;
