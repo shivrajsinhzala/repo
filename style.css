@@ -578,6 +578,16 @@ header .search-bar-container label:hover{
   text-align: center;
   font-family: 'Aditya';
 }
+
+.nam1 p span{
+
+  color: rgba(255, 0, 50); 
+  font-size: 4vh;
+  margin-bottom: 0pt;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .packages .box-container .box .content .price{
   font-size: 2rem;
   color:#333;
