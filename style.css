@@ -82,7 +82,46 @@ section{
   z-index: 5000;  
 }
 /* Links inside the navbar */
+/* icon added in footer */
 
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-right: 10%;
+
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-right: 10%;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-right: 10%;
+}
+
+
+/* icon css ends */
 .navbar a {
   font-size: 170%;
   font-family: 'Quicksand';
